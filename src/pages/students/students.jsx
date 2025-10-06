@@ -111,7 +111,7 @@ const Student = () => {
       title: "FISH",
       dataIndex: "firstName",
       key: "firstName",
-      render: (text, record) => `${record.firstName} ${record.lastName}`,
+      render: (text, record) => `${record.firstName} `,
     },
     {
       title: "ID (employeeNo)",

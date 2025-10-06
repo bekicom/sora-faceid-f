@@ -35,7 +35,6 @@ export const Login = memo(() => {
             type="text"
             placeholder="login kriting"
             autoComplete="off"
-            autoFocus
             name="login"
           />
         </label>
