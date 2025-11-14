@@ -23,7 +23,7 @@ export const WebSocketProvider = ({ children }) => {
 
   useEffect(() => {
     const connectWebSocket = () => {
-      const ws = new WebSocket("wss://soraconyabo.richman.uz");
+      const ws = new WebSocket("wss:sorafaceidsi.richman.uz/");
       wsRef.current = ws;
       // https://soraconyabo.richman.uz
 
